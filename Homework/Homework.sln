@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questionnaire", "Questionna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{665F7729-CD5B-4E18-B9AE-2D50A51984FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distance", "Distance\Distance.csproj", "{61CC86DA-BBB3-46DF-813A-75C64F2915C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{665F7729-CD5B-4E18-B9AE-2D50A51984FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{665F7729-CD5B-4E18-B9AE-2D50A51984FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{665F7729-CD5B-4E18-B9AE-2D50A51984FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CC86DA-BBB3-46DF-813A-75C64F2915C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CC86DA-BBB3-46DF-813A-75C64F2915C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CC86DA-BBB3-46DF-813A-75C64F2915C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CC86DA-BBB3-46DF-813A-75C64F2915C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
