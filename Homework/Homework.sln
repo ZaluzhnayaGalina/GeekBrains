@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distance", "Distance\Distan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap", "Swap\Swap.csproj", "{C7FE8F82-8185-4D15-8EBD-495851DD33B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Info", "Info\Info.csproj", "{6BD33746-E2C1-45BE-A40B-82ED3DB93B71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C7FE8F82-8185-4D15-8EBD-495851DD33B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7FE8F82-8185-4D15-8EBD-495851DD33B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7FE8F82-8185-4D15-8EBD-495851DD33B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD33746-E2C1-45BE-A40B-82ED3DB93B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD33746-E2C1-45BE-A40B-82ED3DB93B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD33746-E2C1-45BE-A40B-82ED3DB93B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD33746-E2C1-45BE-A40B-82ED3DB93B71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
