@@ -11,7 +11,7 @@ namespace BMI
               Рассчитать и вывести индекс массы тела (ИМТ) по формуле I=m/(h*h); где m — масса тела в килограммах, h — рост в метрах*/
             string tmp=null;
             Console.WriteLine("Рост (в метрах):");
-            while(tmp is null)
+            while(tmp is null|| tmp == "")
                 tmp = Console.ReadLine();
             var h = double.Parse(tmp);
             Console.WriteLine("Вес:");
