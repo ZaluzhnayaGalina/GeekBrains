@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{F8C6AEE9-5716-421E-9E36-C0F1C445D496}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{11CD5DED-1B7E-4839-84E1-6A58DD3F8CC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F8C6AEE9-5716-421E-9E36-C0F1C445D496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C6AEE9-5716-421E-9E36-C0F1C445D496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C6AEE9-5716-421E-9E36-C0F1C445D496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CD5DED-1B7E-4839-84E1-6A58DD3F8CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CD5DED-1B7E-4839-84E1-6A58DD3F8CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CD5DED-1B7E-4839-84E1-6A58DD3F8CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CD5DED-1B7E-4839-84E1-6A58DD3F8CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
