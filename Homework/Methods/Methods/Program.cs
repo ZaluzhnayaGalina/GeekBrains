@@ -17,6 +17,8 @@ namespace Methods
             Console.WriteLine(CountDigits(-100));
             Console.WriteLine(CountDigits(18));
             Console.WriteLine(CountDigits(1782391437023));
+            PrintNumbers(-2,12);
+            Console.WriteLine("\n"+Sum(1, 12));
             Console.ReadLine();
         }
         //1. Написать метод, возвращающий минимальное из трех чисел.
@@ -41,6 +43,22 @@ namespace Methods
                 number = number / 10;
             }
             return digits;
+        }
+        //7. a) Разработать рекурсивный метод, который выводит на экран числа от a до b(a<b);
+        static void PrintNumbers(int lower, int higher)
+        {
+            if (lower > higher)
+                return;
+            Console.Write($"{lower} ");
+            PrintNumbers(lower+1, higher);
+        }
+        /*б) *Разработать рекурсивный метод, который считает сумму чисел от a до b.
+            Достаточно решить 4 задачи.Разбивайте программы на подпрограммы. Переписывайте в начало программы условие и свою фамилию. Все программы делайте в одном решении.*/
+        static int Sum(int lower, int higher)
+        {
+            if (lower > higher)
+                return 0;
+            return lower + Sum(lower + 1, higher);
         }
     }
 }
