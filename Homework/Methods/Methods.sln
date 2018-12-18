@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIResommendations", "BMIRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{91CAD961-E3E9-4AAF-8701-6F0CC11D2E4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodNumbers", "GoodNumbers\GoodNumbers.csproj", "{8B13CF9E-346E-42AF-BA96-45174E68AB5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{91CAD961-E3E9-4AAF-8701-6F0CC11D2E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91CAD961-E3E9-4AAF-8701-6F0CC11D2E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91CAD961-E3E9-4AAF-8701-6F0CC11D2E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B13CF9E-346E-42AF-BA96-45174E68AB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B13CF9E-346E-42AF-BA96-45174E68AB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B13CF9E-346E-42AF-BA96-45174E68AB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B13CF9E-346E-42AF-BA96-45174E68AB5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
