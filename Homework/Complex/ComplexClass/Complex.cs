@@ -64,14 +64,11 @@ namespace ComplexClass
         }
         public static Complex operator /(Complex c1, Complex c2)
         {
-            try
-            {
-                return c1 * c2.Conjugation() / (c2.Module * c2.Module);
-            }
-            catch
-            {
+            if (c2.Module==0)
                 throw new ArgumentException("Деление на ноль!");
-            }
+
+            return c1 * c2.Conjugation() / (c2.Module * c2.Module);
+        
         }
         public static Complex operator +(Complex c1, double c2)
         {
@@ -87,14 +84,10 @@ namespace ComplexClass
         }
         public static Complex operator /(Complex c1, double c2)
         {
-            try
-            {
-                return new Complex(c1.Re / c2, c1.Im / c2);
-            }
-            catch
-            {
-                throw new ArgumentException("Деление на ноль!");
-            }
+            if (c2==0)
+                throw new ArgumentException("Деление на ноль!");            
+            return new Complex(c1.Re / c2, c1.Im / c2);
+            
         }
     }
 }
