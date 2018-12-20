@@ -57,7 +57,7 @@ namespace ComplexStruct
         }
         public double Module()
         {
-            return _re * _re + _im * _im;
+            return Math.Sqrt(_re * _re + _im * _im);
         }
         public void Add(double r)
         {
@@ -105,7 +105,7 @@ namespace ComplexStruct
             {
                 c.Conjugation();
                 Multiply(c);
-                Division(c.Module());
+                Division(c.Module()* c.Module());
             }
             catch
             {
