@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ComplexClass
 {
+    /*Залужная
+     * 1б) Дописать класс Complex, добавив методы вычитания и произведения чисел. Проверить работу класса;*/
     class Program
     {
         static void Main(string[] args)
