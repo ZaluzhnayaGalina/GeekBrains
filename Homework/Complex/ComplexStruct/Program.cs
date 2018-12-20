@@ -89,28 +89,22 @@ namespace ComplexStruct
         }
         public void Division(double r)
         {
-            try
-            {
+            if (r==0)
+                throw new ArgumentException("Деление на ноль!");
+            
                 _re /= r;
                 _im /= r;
-            }
-            catch
-            {
-                throw new ArgumentException("Деление на ноль!");
-            }
+          
         }
         public void Division(Complex c)
         {
-            try
-            {
+            if (c.Module()==0)
+                throw new ArgumentException("Деление на ноль!");
+            
                 c.Conjugation();
                 Multiply(c);
                 Division(c.Module()* c.Module());
-            }
-            catch
-            {
-                throw new ArgumentException("Деление на ноль!");
-            }
+            
         }
         public override string ToString()
         {
