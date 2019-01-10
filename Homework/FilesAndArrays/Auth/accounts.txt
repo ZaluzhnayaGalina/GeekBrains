@@ -1,0 +1,4 @@
+root
+GeekBrains
+galina
+12345
