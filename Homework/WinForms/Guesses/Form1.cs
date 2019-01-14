@@ -25,7 +25,10 @@ namespace Guesses
                 if (_game.CheckAttemptPosibility())
                     CheckAnswer();
                 else
+                {
                     MessageBox.Show("У вас кончились попытки, вы проиграли!");
+                    RestartGame();
+                }
             }
             catch
             {
@@ -36,7 +39,25 @@ namespace Guesses
 
         private void CheckAnswer()
         {
-           // throw new NotImplementedException();
+            if (_game.UserAnswerIsGreater(_userAnswer))
+            {
+                labelResult.Text = "Введенное число больше загаданного";
+                return;
+            }
+            if (_game.UserAnswerIsLess(_userAnswer))
+            {
+                labelResult.Text = "Введенное число меньше загаданного";
+                return;
+            }
+            labelResult.Text = _userAnswer.ToString();
+            MessageBox.Show("Вы выиграли!");
+            RestartGame();
+        }
+        private void RestartGame()
+        {
+            _game = new GuessesGame();
+            labelResult.Text = String.Empty;
+            inputBox.Text = String.Empty;
         }
     }
 }
