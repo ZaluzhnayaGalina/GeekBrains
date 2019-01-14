@@ -39,6 +39,7 @@ namespace Guesses
 
         private void CheckAnswer()
         {
+            attemptsList.Items.Add(_userAnswer);
             if (_game.UserAnswerIsGreater(_userAnswer))
             {
                 labelResult.Text = "Введенное число больше загаданного";
@@ -58,6 +59,7 @@ namespace Guesses
             _game = new GuessesGame();
             labelResult.Text = String.Empty;
             inputBox.Text = String.Empty;
+            attemptsList.Items.Clear();
         }
     }
 }
