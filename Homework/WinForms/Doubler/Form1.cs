@@ -30,7 +30,7 @@ namespace Lesson7
             this.Close();
         }
 
-        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        private void StartNewGame(object sender, EventArgs e)
         {
             _game = new GameDoubler(15);
             UpdateInfo();
@@ -38,8 +38,15 @@ namespace Lesson7
             btnPlus.Enabled = true;
             btnReset.Enabled = true;
             btnBack.Enabled = true;
-            _game.SetUpdate += UpdateInfo;
+            _game.DataUpdated += UpdateInfo;
+            _game.GameWon += WinMessage;
 
+        }
+
+        private void WinMessage(int count)
+        {
+            MessageBox.Show("Вы выиграли! Число ходов " + count);
+            _game.Reset();
         }
 
         void UpdateInfo()
@@ -65,11 +72,6 @@ namespace Lesson7
         {
             if (_game == null) return;
             _game.Reset();           
-        }
-
-        private void Form1_Shown(object sender, EventArgs e)
-        {
-            newToolStripMenuItem.PerformClick();
         }
 
         private void btnBack_Click(object sender, EventArgs e)

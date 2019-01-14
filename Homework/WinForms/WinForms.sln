@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guesses", "Guesses\Guesses.csproj", "{693D1DEA-2228-4E72-B55C-5AAADF408194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doubler", "Lesson7\Doubler.csproj", "{9D05AD8C-9556-4C94-8BC8-630BC22E6387}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doubler", "Doubler\Doubler.csproj", "{9D05AD8C-9556-4C94-8BC8-630BC22E6387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
