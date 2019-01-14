@@ -16,6 +16,27 @@ namespace Guesses
         {
             InitializeComponent();
         }
+        private int _userAnswer;
+        private void checkButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                _userAnswer = Convert.ToInt32(inputBox.Text);
+                if (_game.CheckAttemptPosibility())
+                    CheckAnswer();
+                else
+                    MessageBox.Show("У вас кончились попытки, вы проиграли!");
+            }
+            catch
+            {
+                MessageBox.Show("Вы ввели не число!");
+            }
+            
+        }
 
+        private void CheckAnswer()
+        {
+           // throw new NotImplementedException();
+        }
     }
 }
