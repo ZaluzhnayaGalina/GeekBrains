@@ -50,6 +50,7 @@ namespace BelieveOrNotBelieve
             this.nudNumber = new System.Windows.Forms.NumericUpDown();
             this.btnSaveQuest = new System.Windows.Forms.Button();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
             this.SuspendLayout();
@@ -72,6 +73,7 @@ namespace BelieveOrNotBelieve
             this.miOpen,
             this.miSave,
             this.saveAsToolStripMenuItem,
+            this.playToolStripMenuItem,
             this.toolStripMenuItem1,
             this.miExit});
             this.miFile.Name = "miFile";
@@ -207,6 +209,13 @@ namespace BelieveOrNotBelieve
             this.saveAsToolStripMenuItem.Text = "Save As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
+            // playToolStripMenuItem
+            // 
+            this.playToolStripMenuItem.Name = "playToolStripMenuItem";
+            this.playToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.playToolStripMenuItem.Text = "Play";
+            this.playToolStripMenuItem.Click += new System.EventHandler(this.playToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,6 +258,7 @@ namespace BelieveOrNotBelieve
         private ToolStripMenuItem tsmiAutosave;
         private ToolStripMenuItem tsmiParams;
         private ToolStripMenuItem saveAsToolStripMenuItem;
+        private ToolStripMenuItem playToolStripMenuItem;
     }
 }
 
