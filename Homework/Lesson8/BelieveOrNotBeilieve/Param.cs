@@ -1,0 +1,7 @@
+﻿namespace BelieveOrNotBelieve
+{
+    struct Param
+    {
+
+    }
+}
