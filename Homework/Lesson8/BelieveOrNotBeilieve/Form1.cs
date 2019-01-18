@@ -134,5 +134,15 @@ namespace BelieveOrNotBelieve
             _param.ShowDialog();
             tboxQuestion.Font = _param.font;
         }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog(){Filter = Filter};
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                _database.FileName = sfd.FileName;
+                _database.Save();
+            }
+        }
     }
 }
